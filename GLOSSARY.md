@@ -21,7 +21,7 @@ A mutant whose test run still passes; the tests do not distinguish it from the o
 _Avoid_: missed, undetected
 
 **Uncovered**:
-A mutation site on a line the coverage report does not hit; it is not run.
+A mutation site whose statement anchor line the coverage report does not hit (not merely the site's own line); it is not run.
 _Avoid_: skipped, untested
 
 **Test plan**:
